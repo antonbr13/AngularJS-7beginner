@@ -1,0 +1,13 @@
+/*PAGE DEFAULTS------------*/
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;;
+}
+
+body {
+   font-family: 'Varela Round';
+   text-align: center;
+}

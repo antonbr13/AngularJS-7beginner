@@ -5,6 +5,16 @@
 
 var app = angular.module('myApp', []);
 
+app.controller('PlayerController',['$scope', function($scope) {
+   $scope.playing = false;
+   $scope.audio = document.createElement('audio');
+   $scope.audio. = ''
+}]);
+
+app.controller('RelatedController', ['$scope', function($scope) {
+
+}]);
+
 
 // IN THE HTML --> Now, we want to instantiate our myApp module on our page and tell Angular where in the DOM tree our app lives. To instantiate the module in a page, we’ll be using the ng-app directive, which tells Angular that we want our module to own that part of the DOM tree.
 

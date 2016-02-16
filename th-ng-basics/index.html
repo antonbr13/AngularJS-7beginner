@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="todoListApp">
+<head>
+  <title></title>
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+
+<h1>Today's To Do's</h1>
+<div ng-controller='mainCtrl' class="list">
+   <input type="checkbox" name="name" value=""/>
+<!--  label will be used to display the value of the input and the input will be used to change the value -->
+   <label class='editing-label'>Sample List Item</label>
+   <input type="text" class="editing-label" name="name" value=""/>
+
+
+
+   <div class="actions">
+      <a href="">edit</a>
+      <a href="" ng-click="helloWorld()">save</a>
+      <a href="" class='delete'>delete</a>
+   </div>
+
+</div>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+   <script src='js/main.js'></script>
+
+
+</body>
+</html>
